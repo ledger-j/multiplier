@@ -1,9 +1,9 @@
 # Installs the /multiplier skill into the current directory's Claude Code project.
 # Usage:
-#   iwr https://raw.githubusercontent.com/ledger-j/skill-multiplier/main/install.ps1 -useb | iex
+#   iwr https://raw.githubusercontent.com/ledger-j/multiplier/main/install.ps1 -useb | iex
 
 $ErrorActionPreference = "Stop"
-$repoRaw = "https://raw.githubusercontent.com/ledger-j/skill-multiplier/main"
+$repoRaw = "https://raw.githubusercontent.com/ledger-j/multiplier/main"
 $targetDir = ".claude/skills/multiplier"
 
 Write-Host "Installing /multiplier into $(Get-Location)/$targetDir"

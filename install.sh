@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Installs the /multiplier skill into the current directory's Claude Code project.
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/ledger-j/skill-multiplier/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/ledger-j/multiplier/main/install.sh | bash
 set -euo pipefail
 
-REPO_RAW="https://raw.githubusercontent.com/ledger-j/skill-multiplier/main"
+REPO_RAW="https://raw.githubusercontent.com/ledger-j/multiplier/main"
 TARGET_DIR=".claude/skills/multiplier"
 
 echo "Installing /multiplier into $(pwd)/$TARGET_DIR"
