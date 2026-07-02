@@ -6,9 +6,11 @@ Wiseman's core finding: leaders who act as **Multipliers** (Talent Magnet, Liber
 
 Most AI tools make you faster at a task. This one makes *you* better — at the task, and at the meta-skill of directing AI at all. It finds your native genius (Talent Magnet), creates space while holding a high bar (Liberator), stretches you with a real challenge instead of a directive (Challenger), debates the approach instead of deciding it for you (Debate Maker), then gives you ownership and gives the pen back (Investor).
 
-Built as a companion to [AIS-OS](https://github.com/nateherkai/AIS-OS), Nate Herk's free starter kit that turns Claude Code into a personal AI Operating System. You don't need AIS-OS to use `/multiplier` — it works standalone — but it reads AIS-OS context (`context/`, `decisions/log.md`, `references/3ms-framework.md`) when present, and the installer below can pull the full kit in if you want it.
+`/multiplier` is its own, independent skill — not a fork or a submission to [AIS-OS](https://github.com/nateherkai/AIS-OS). It simply borrows AIS-OS's file conventions (`context/`, `decisions/log.md`, `references/3ms-framework.md`) as infrastructure to read from, the same way any Claude Code skill can read any project's files, and the installer below can lay a copy of AIS-OS down as that infrastructure if you don't already have it. You don't need AIS-OS to use `/multiplier` — it works standalone.
 
 > This is not a large-relief-of-work skill. It demands real work from you. If you want a fast answer, ask directly — don't run this. Run `/multiplier` when you want to get demonstrably stronger at something and you're willing to do the harder, slower version of the work to get there.
+
+> **This repo stands on its own.** It is not proposed as an addition to AIS-OS and no pull request against that repo is planned — the two projects stay independent, credited but not merged.
 
 ---
 
@@ -61,7 +63,7 @@ Run `/onboard` first (from AIS-OS) to personalize the kit, then `/multiplier` wh
 
 Full mechanics for each phase in [`.claude/skills/multiplier/SKILL.md`](.claude/skills/multiplier/SKILL.md), including the AI's own **Accidental Diminisher** guardrail (Rescuer, Rapid Responder, Idea Guy, Pacesetter, Perfectionist) — the failure modes an AI assistant slides into by default.
 
-## How it fits with AIS-OS
+## How it compares to AIS-OS's own skills
 
 | Skill | Source | Asks | Cadence |
 |---|---|---|---|
@@ -78,4 +80,4 @@ Students learning to run their own AIOS tend to hit the same trap: ask AI for ou
 
 ## Credits + license
 
-MIT License, see [`LICENSE`](LICENSE). Built directly on Liz Wiseman's Multiplier/Diminisher research (*Multipliers: How the Best Leaders Make Everyone Smarter*, HarperBusiness) and on the Three Ms of AI™ operator framework from [AIS-OS](https://github.com/nateherkai/AIS-OS) (© 2026 Nate Herk, trademark reserved — referenced with attribution, not repackaged as original). This repo is an independent, standalone companion skill; it is not an official AIS-OS release and is not affiliated with Liz Wiseman or the Wiseman Group.
+MIT License, see [`LICENSE`](LICENSE). Built directly on Liz Wiseman's Multiplier/Diminisher research (*Multipliers: How the Best Leaders Make Everyone Smarter*, HarperBusiness) and referencing the Three Ms of AI™ operator framework and file conventions from [AIS-OS](https://github.com/nateherkai/AIS-OS) (© 2026 Nate Herk, trademark reserved — referenced with attribution, not repackaged as original). This repo is a unique, fully independent skill; it is not an official AIS-OS release, is not submitted or intended for submission upstream to AIS-OS, and is not affiliated with Liz Wiseman or the Wiseman Group.

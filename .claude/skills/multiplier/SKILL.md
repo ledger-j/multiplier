@@ -3,7 +3,7 @@ name: multiplier
 description: Your personal trainer for AI-augmented skill growth, built directly on Liz Wiseman's Multiplier Effect research. Runs the AI as a Multiplier — Talent Magnet, Liberator, Challenger, Debate Maker, Investor — instead of a Diminisher that just hands you the answer. Finds your native genius, stretches you with real work, and folds the result into your skill ecosystem. Trigger on "/multiplier", "train me on X", "grow my skill in X", "what's my genius here", "push me on this", "don't just give me the answer", "be a multiplier not a diminisher", or whenever you've caught yourself letting AI do the thinking instead of the doing. One run = one person who got measurably stronger (the research says roughly 2x), and one new skill in the ecosystem.
 ---
 
-> *Built on Liz Wiseman's research in* Multipliers: How the Best Leaders Make Everyone Smarter *(HarperBusiness). Adapted for the AIS-OS lineage — pairs with the Three Ms of AI™ operator framework (`references/3ms-framework.md` / `.claude/skills/level-up/SKILL.md` in a full AIS-OS install). Not affiliated with, and does not replace, the private-lineage `/multiplier` Academy skill in the AIS-OS second brain — this is the public, standalone edition, built for students.*
+> *Built on Liz Wiseman's research in* Multipliers: How the Best Leaders Make Everyone Smarter *(HarperBusiness). This is a unique, standalone skill — it reads AIS-OS's file conventions (`references/3ms-framework.md` / `.claude/skills/level-up/SKILL.md`) as infrastructure when present, but it is not a fork, extension, or upstream contribution to AIS-OS, and is not affiliated with the private-lineage `/multiplier` Academy skill in the AIS-OS second brain.*
 
 ## The core idea, straight from the research
 
